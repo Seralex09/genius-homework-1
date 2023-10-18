@@ -1,0 +1,105 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-weight: 400;
+  src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2'),
+    url('../fonts/play-v19-cyrillic_latin-regular.woff') format('woff');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-weight: 700;
+  src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2'),
+    url('../fonts/play-v19-cyrillic_latin-700.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'),
+    url('../fonts/roboto-v30-cyrillic_latin-regular.woff') format('woff');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: url('../fonts/roboto-v30-cyrillic_latin-500.woff2') format('woff2'),
+    url('../fonts/roboto-v30-cyrillic_latin-500.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2'),
+    url('../fonts/roboto-v30-cyrillic_latin-700.woff') format('woff');
+}
+
+:root {
+  --color-primary-white: #ffffff;
+  --color-primary-light: #2b7fff;
+  --color-primary-dark: #011c44;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-dark);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.17;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Link */
+
+.link-header {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.link-header:hover {
+  color: var(--color-primary-light);
+  font-weight: 700;
+}
+
+/* Hero section */
+.hero-title {
+  font-family: 'Play', sans-serif;
+  text-transform: capitalize;
+  color: var(--color-primary-light);
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+.button-signature {
+  color: #4a4a4a;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Button */
+.button {
+  color: var(--color-primary-white);
+  font-weight: 500;
+  text-align: center;
+  background: var(--color-primary-light);
+  border: 2px solid var(--color-primary-light);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-primary-dark);
+  background: transparent;
+}

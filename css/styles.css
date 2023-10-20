@@ -59,6 +59,20 @@ ul {
   list-style-type: none;
 }
 
+.section-title {
+  font-family: 'Play', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.section-title .accent {
+  color: var(--color-primary-light);
+}
+
+.section-title .capitalize {
+  text-transform: capitalize;
+}
 /* Link */
 
 .link-header {
@@ -102,4 +116,45 @@ ul {
 .button:hover {
   color: var(--color-primary-dark);
   background: transparent;
+}
+
+/* Information-section */
+.information-text {
+  font-size: 22px;
+  line-height: 1.72;
+}
+
+.information-text .accent {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+/* Advantages-section */
+.advantages-text {
+  color: #000000;
+  line-height: 1.33;
+}
+
+/* Procedures-section */
+.procedures-text {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+/* Contacts-section */
+
+/* Footer */
+.footer {
+  background-color: var(--color-primary-dark);
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.address-copyright {
+  color: #747272;
+  font-size: 13px;
 }

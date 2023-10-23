@@ -63,7 +63,6 @@ ul {
   font-family: 'Play', sans-serif;
   font-size: 64px;
   font-weight: 700;
-  line-height: 1.15;
 }
 
 .section-title .accent {
@@ -148,10 +147,14 @@ ul {
   background-color: var(--color-primary-dark);
 }
 
-.footer-text {
+.footer-link {
   color: #ffffff;
   font-size: 16px;
   text-decoration: none;
+}
+
+.footer-link:hover {
+  font-weight: 500;
 }
 
 .address-copyright {

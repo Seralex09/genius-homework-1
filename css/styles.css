@@ -98,7 +98,6 @@ ul {
   color: #4a4a4a;
   font-size: 12px;
   line-height: 1.5;
-  text-align: center;
 }
 
 /* Button */
@@ -154,6 +153,7 @@ ul {
 }
 
 .footer-link:hover {
+  color: var(--color-primary-light);
   font-weight: 500;
 }
 
